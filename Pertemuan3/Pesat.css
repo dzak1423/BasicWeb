@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: white;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.Navbar {
+    padding: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.Menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.Menu ul li a {
+    
+    margin:  20px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.Teks {
+    margin-left: 300px;
+    margin-top: 60px;
+    font-weight: 600px;
+}
+.Telah {
+    color: #f1a204;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.Teks h1 {
+    color: #0C084C;
+    margin-top: 15px;
+    font-size: 43px;
+    justify-content: start;
+}
+
+.Sekolah {
+    color: #0C084C;
+    margin-top: 15px;
+    font-size: 16px;
+}

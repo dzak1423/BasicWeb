@@ -1,0 +1,126 @@
+body{
+    text-align: center;
+    font-family: poppins;
+}
+
+.jurusan{
+    font-weight: big;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tkj{
+    background-color: #f2f5f7;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 5;
+    font-weight: 400;
+}
+
+
+.TKJ {
+    color: rgb(255, 255, 255);
+    background-color: #f1a204;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 16;
+    text-align: center;
+}
+
+.dkv {
+    background-color: #F2f5f7;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 5;
+    font-weight: 400;
+}
+
+.DKV {
+    color: rgb(255, 255, 255);
+    background-color: #f1a204;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.rpl {
+    background-color: #F2f5f7;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 5;
+    font-weight: 400;
+}
+
+.RPL {
+    color: rgb(255, 255, 255);
+    background-color: #f1a204;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 16;
+    text-align: center;
+}
+
+.download {
+    color: rgb(255, 255, 255);
+    background-color: #0c084c;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16;
+    text-align: center;
+    font-weight: bold;
+}
+
+.download2 {
+    color: rgb(255, 255, 255);
+    background-color: #0c084c;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.download3 {
+    color: rgb(255, 255, 255);
+    background-color: #0c084c;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Jurusan-IT {
+    color: #0c084c;
+    font-size: 43px;
+}
+
+.berikut {
+    font-size: 16px;
+    color: #0c084c;
+}
+p {
+    font-size: 14px;
+    color: #111518;
+}
+ul {
+    text-align: left;
+    font-size: 14px;
+    color: #687279;
+    padding: 0px 15px 15px;
+}
