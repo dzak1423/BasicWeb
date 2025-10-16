@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.Hubungi {
+    background-color: #f1a204;
+    color: white;
+    border-radius: 3px;
+    display: inline-flex;
+    justify-content: center;
+    /* height: 10px; */
+    /* padding: 10px 14px 1px; */
+}
+
+.Menu .Hubungi :hover{
+    transform:  translateZ(10px);
+    color: white
+
+}
+.hero {
+display: flex;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    /* background-color: aqua; */
+}
+
+.Navbar {
+    padding: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    /* background-color: cadetblue; */
+}
+
+.Menu ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.Menu ul li a {
+    /* margin:  20px; */
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.Teks {
+    /* margin-left: 300px; */
+    margin-top: 60px;
+    font-weight: 600px;
+    /* background-color: blue; */
+}
+.Telah {
+    color: #f1a204;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.Teks h1 {
+    color: #0C084C;
+    margin-top: 15px;
+    font-size: 43px;
+    justify-content: start;
+}
+
+.sekol {
+    color: #0C084C;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.hero {
+    /* background-color: aquamarine; */
+    display: flex;
+    width: 100%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.fa-solid fa-circle-check {
+    background-color: #f1a204;
+    color: #f1a204;
+        
+}
+
+
+/* 2 */
+
+.jurusan-smk {
+    text-align: center;
+    font-family: poppins;
+}
+
+.jurusan{
+    font-weight: big;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tkj{
+    background-color: #f2f5f7;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 5;
+    font-weight: 400;
+}
+
+
+.TKJ {
+    color: rgb(255, 255, 255);
+    background-color: #f1a204;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 16;
+    text-align: center;
+}
+
+.dkv {
+    background-color: #F2f5f7;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 5;
+    font-weight: 400;
+}
+
+.DKV {
+    color: rgb(255, 255, 255);
+    background-color: #f1a204;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.rpl {
+    background-color: #F2f5f7;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 5;
+    font-weight: 400;
+}
+
+.RPL {
+    color: rgb(255, 255, 255);
+    background-color: #f1a204;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 16;
+    text-align: center;
+}
+
+.download {
+    color: rgb(255, 255, 255);
+    background-color: #0c084c;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16;
+    text-align: center;
+    font-weight: bold;
+}
+
+.download2 {
+    color: rgb(255, 255, 255);
+    background-color: #0c084c;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.download3 {
+    color: rgb(255, 255, 255);
+    background-color: #0c084c;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 16;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Jurusan-IT {
+    color: #0c084c;
+    font-size: 43px;
+    text-align: center;
+}
+
+.berikut {
+    font-size: 16px;
+    color: #0c084c;
+    text-align: center;
+}
+p {
+    font-size: 14px;
+    color: #111518;
+}
+ul {
+    text-align: left;
+    font-size: 14px;
+    color: #687279;
+    padding: 0px 15px 15px;
+}
+
+
+/* 3 */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.filter-buttons {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    border: 1px solid #ddd;
+    background: none;
+    color: #555;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-weight: 500;
+
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background-color: #ff6b00;
+    color: white;
+    border-color: #ff6b00;
+}
+
+.Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;      
+}
+
+.gambar {
+    width: 30%;
+    border-radius: 12px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.gambar img {
+    width: 100%;
+    height: 100%;
+}
+
+.gambar:hover{
+    transform: scale(1.05);
+}
