@@ -1,0 +1,124 @@
+/* .container { */
+    /* background-color: aqua; */
+/* } */
+
+* {
+box-sizing: border-box;
+}
+
+.container {
+width: 25%;
+margin: auto;
+border-radius: 20px;
+/* background-color: rgb(255, 6, 6); */
+padding: 20px;
+margin-top: 150px;
+}
+
+
+    body {
+        background-image: url('https://www.shutterstock.com/image-vector/abstract-blue-background-modern-simple-600nw-2474145007.jpg');
+        background-size: cover;
+        background-position: bottom center;
+        background-attachment: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Or for a specific div */
+    .hero-section {
+        background-image: url('https://www.shutterstock.com/image-vector/abstract-blue-background-modern-simple-600nw-2474145007.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+    }
+i{
+    color: white;
+}
+.fa-cart-shopping{
+    font-size: 70px;
+}
+
+.fa-user{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    padding: 16px 9px 9px 9px;
+}
+
+.fa-lock{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    padding: 16px 9px 9px 9px;
+}
+
+.Welcome {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.Forgot {
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    align-items: end;
+}
+        input[type="text"]{
+            width: 100%;
+            padding: 12px;
+            border: 0.5px solid #ffffff;
+            border-radius: 7px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            background-color: #ffffff00;
+            color: #ffffff;
+        }
+
+        input[type="password"]{
+            width: 100%;
+            padding: 12px;
+            border: 0.5px solid #ffffff;
+            border-radius: 7px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            background-color: #ffffff00;
+            color: #ffffff;
+        }
+
+        input[type="submit"]{
+            font-size: 15px;
+            width: 100%;
+            padding: 12px;
+            border: 0.5px solid #ffffff;
+            border-radius: 7px;
+            box-sizing: border-box;
+            margin-top: 20px;
+            margin-bottom: 16px;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        input[type="submit"] :hover{
+            cursor: pointer;
+        }
+
+        .Login{
+            /* background-color: #000000; */
+            position: relative;
+            color: #ffffff;
+        }
+        .password{
+            /* background-color: #000000; */
+            position: relative;
+            color: #ffffff;
+        }
