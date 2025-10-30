@@ -1,0 +1,25 @@
+.hero {
+    display: flex;
+}
+
+.pesat {
+    margin: auto;
+}
+
+.box {
+    background-color: blue;
+}
+
+.box1 {
+    background-color: purple;
+}
+@media screen and (max-width: 400px) {
+    .box {
+        background-color: brown;
+        padding: 20px;
+    }    
+    .box1 {
+        background-color: aqua;
+        padding: 20px;
+    }
+}

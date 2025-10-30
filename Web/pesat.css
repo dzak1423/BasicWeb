@@ -10,6 +10,9 @@ body {
     padding: 40px;
 }
 
+@media screen and (max-width: 400px) {
+    background-color: red;
+}
 .Hubungi {
     background-color: #f1a204;
     color: white;
@@ -290,3 +293,4 @@ ul {
 .gambar:hover{
     transform: scale(1.05);
 }
+
